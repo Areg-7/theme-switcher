@@ -61,7 +61,7 @@ function Navbar({ className }: { className?: string }) {
 				<MenuItem setActive={setActive} active={active} item='Theme'>
 					<div className='text-sm grid grid-cols-2 gap-10 p-4'>
 						{changeTheme.map((item: { number: string; title: string }) => (
-							<ChangeTheme number={item.number} title={item.title} />
+							<ChangeTheme key={item.number} number={item.number} title={item.title} />
 						))}
 					</div>
 				</MenuItem>

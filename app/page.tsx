@@ -11,7 +11,7 @@ import { SuperQuality } from '@/components/ui/SuperQuality'
 export default function Home() {
 	return (
 			<main className='relative'>
-				{/* <ThemeSwitcher /> */}
+				<ThemeSwitcher />
 				{/* <Hero />
 				<PopularProducts />
 				<SuperQuality />
