@@ -1,7 +1,6 @@
 import { ThemeSwitcher } from '@/components/ThemeSwitcher'
 import { CustomerReviews } from '@/components/ui/CustomerReviews'
 import { Footer } from '@/components/ui/Footer'
-import { Hero } from '@/components/ui/Hero'
 import { PopularProducts } from '@/components/ui/PopularProducts'
 import { Services } from '@/components/ui/Services'
 import { SpecialOffer } from '@/components/ui/SpecialOffer'
