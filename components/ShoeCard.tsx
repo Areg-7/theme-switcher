@@ -6,7 +6,7 @@ interface ShoeCardProps {
         thumbnail: string;
     };
     changeBigShoeImage: (image: string) => void;
-    bigShoeImg: string;
+    bigShoeImg: any;
 }
 
 const ShoeCard: React.FC<ShoeCardProps> = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
