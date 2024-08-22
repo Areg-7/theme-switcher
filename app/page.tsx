@@ -11,10 +11,10 @@ export default function Home() {
 	return (
 			<main className='relative'>
 				<ThemeSwitcher />
-				{/* <Hero />
+				{/* <Hero />*/}
 				<PopularProducts />
 				<SuperQuality />
-				<Services />*/}
+				<Services />
 				<SpecialOffer />
 				<CustomerReviews />	
 				<Subscribe />
