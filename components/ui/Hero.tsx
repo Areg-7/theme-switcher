@@ -59,7 +59,7 @@ export const Hero: React.FC = () => {
           {shoes.map((image, index) => (
             <div key={index}>
               <ShoeCard
-                // index={index}
+                index={index}
                 imgURL={image}
                 changeBigShoeImage={(shoe: any) => setBigShoeImg(shoe)}
                 bigShoeImg={bigShoeImg}
